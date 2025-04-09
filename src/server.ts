@@ -1,4 +1,4 @@
-function welcome(name: string) {
-    console.log(`Hello ${name}, Welcome to the world of programming`)
-}
-welcome('Rohit Kumar')
+import { Config } from './config/index'
+
+console.log(Config.NODE_ENV)
+console.log(Config.PORT)
